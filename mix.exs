@@ -11,7 +11,7 @@ defmodule GprocSelect.Mixfile do
   end
 
   def application do
-    [applications: [:logger]]
+    [applications: [:logger, :gproc]]
   end
 
   defp deps do
